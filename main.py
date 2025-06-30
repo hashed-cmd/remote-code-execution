@@ -5,11 +5,7 @@ app = Flask(__name__)
 @app.route("/getscript")
 def get_script():
     lua_script = """
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Hi Djjfffjfjfhfh";
-    Text = "test3";
-    Duration = 5;
-})
+-- nothing
 """
     return lua_script, 200, {"Content-Type": "text/plain"}
 
