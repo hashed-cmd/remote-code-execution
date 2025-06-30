@@ -6,8 +6,8 @@ app = Flask(__name__)
 def get_script():
     lua_script = """
 game.StarterGui:SetCore("SendNotification", {
-    Title = "hashed";
-    Text = "Working";
+    Title = "test2";
+    Text = "test2";
     Duration = 5;
 })
 """
